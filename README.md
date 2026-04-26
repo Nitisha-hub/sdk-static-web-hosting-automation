@@ -2,18 +2,19 @@
 
 ## 📌 Overview
 
-This project automates the deployment of a static website on AWS S3 using Python and boto3.
+This project demonstrates how to automate the deployment of a static website on AWS S3 using Python and boto3 (AWS SDK).
 
-Instead of manually uploading files, the entire process is handled programmatically.
+Instead of manually creating buckets and uploading files, the entire process is automated using a Python script.
 
 ---
 
 ## 🎯 Features
 
 * Automated S3 bucket creation
-* Static website hosting configuration
-* File upload with MIME type handling
+* Static website hosting enabled
+* File upload using Python script
 * Public access configuration
+* MIME type handling for files
 
 ---
 
@@ -27,14 +28,15 @@ Instead of manually uploading files, the entire process is handled programmatica
 
 ## ⚙️ How It Works
 
-1. Creates an S3 bucket
+1. Creates an S3 bucket programmatically
 2. Enables static website hosting
 3. Uploads website files automatically
-4. Configures public access
+4. Applies public access policy
+5. Generates website URL
 
 ---
 
-## ▶️ Run Locally
+## ▶️ How to Run
 
 ```bash
 pip install boto3
@@ -46,27 +48,62 @@ python deploy.py
 
 ## 🌐 Live Website
 
-(Add your S3 URL here)
+👉 Add your S3 website URL here
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-(Add screenshot here)
+### 🌐 Website UI
+
+![Website](screenshot1.png)
+
+### 🪣 S3 Bucket
+
+![S3 Bucket](screenshot2.png)
+
+### ⚙️ Static Website Hosting Enabled
+
+![Hosting](screenshot3.png)
+
+---
+
+## 📂 Project Structure
+
+```
+aws-s3-static-website-automation/
+│── deploy.py
+│── website/
+│   ├── index.html
+│   ├── style.css
+│   └── error.html
+│── screenshot1.png
+│── screenshot2.png
+│── screenshot3.png
+│── README.md
+```
 
 ---
 
 ## 🧠 Learning Outcomes
 
-* AWS S3 fundamentals
-* IAM permission handling
-* Automation using SDK
-* Debugging real deployment issues
+* Hands-on experience with AWS S3
+* Understanding IAM permissions
+* Automating cloud tasks using SDK
+* Debugging real-world deployment issues
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add CloudFront CDN
+* Add CloudFront CDN (for HTTPS & caching)
 * Add custom domain
-* CI/CD using GitHub Actions
+* Implement CI/CD using GitHub Actions
+
+---
+
+## 👩‍💻 Author
+
+Nitisha
+
+---
