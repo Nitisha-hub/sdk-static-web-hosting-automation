@@ -48,7 +48,7 @@ python deploy.py
 
 ## 🌐 Live Website
 
-👉 Add your S3 website URL here
+http://nitisha-static-site-12345.s3-website.ap-south-1.amazonaws.com/
 
 ---
 
