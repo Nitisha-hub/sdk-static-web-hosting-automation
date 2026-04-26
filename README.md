@@ -60,7 +60,7 @@ http://nitisha-static-site-12345.s3-website.ap-south-1.amazonaws.com/
 
 
 ### 🪣 S3 Bucket
-![S3](screenshots/screenshot2.png)
+![S3](screenshots/Screenshot2.png)
 
 ### ⚙️ Hosting Enabled
 ![Hosting](screenshots/screenshot3.png)
