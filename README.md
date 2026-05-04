@@ -1,5 +1,5 @@
 # 🚀 AWS S3 Static Website Automation
-
+                                          
 ## 📌 Overview
 
 This project demonstrates how to automate the deployment of a static website on AWS S3 using Python and boto3 (AWS SDK).
