@@ -3,7 +3,7 @@ import os
 import json
 import mimetypes
 
-# Create S3 client
+# Create S3 client           
 s3 = boto3.client('s3')
 
 # Unique bucket name
