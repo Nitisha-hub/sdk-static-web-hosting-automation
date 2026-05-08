@@ -7,7 +7,7 @@ import mimetypes
 s3 = boto3.client('s3')
 
 # Unique bucket name
-bucket_name = "nitisha-static-site-12345"  # change if needed
+bucket_name = "nitisha-static-site-12345"  # change if needed                  
 region = "ap-south-1"
 
 # 1️⃣ Create Bucket
